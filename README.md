@@ -1,3 +1,15 @@
+# Project Essay: Smart Carpooling for Environmental and Economic Impact in Nairobi
+
+Urban mobility in Nairobi is deeply congested, environmentally costly, and increasingly expensive for everyday commuters. With rising fuel prices, long queues, and heavy CO₂ emissions from private cars, matatus, taxis, and boda bodas, the city faces a mobility challenge that affects both the environment and the economy. My project proposes an intelligent carpooling optimization system designed to reduce emissions, lower transport costs, and encourage shared mobility adoption using data-driven insights.
+
+At the center of the project is a machine-learning model that predicts potential carpool adoption among users based on demographic features, travel frequency, distance, and cost sensitivities. The model incorporates multiple transportation emission profiles—including cars, taxis, matatus, and motorcycles—to simulate how individual choices contribute to total daily emissions. By introducing a realistic “adoption scenario,” the system adjusts each user’s emission footprint when they switch from their original transport mode to a more efficient shared ride. This allows the platform to quantify the environmental benefits of carpooling in measurable terms such as reduced CO₂ emissions per kilometer.
+
+Economically, the system evaluates how shared mobility can cut transport expenses for students, workers, and low-income commuters who often spend a significant portion of their income on travel. By modeling cost-sharing between riders, the project demonstrates how carpooling reduces individual trip costs while increasing vehicle occupancy, making transport more inclusive and affordable. The model also incorporates behavioral factors, recognizing that adoption is not uniform; stratification and predictions are designed to reflect real Nairobi commuting patterns.
+
+The final output of the project is an interactive dashboard and analytical engine that visualizes environmental savings, economic benefits, and predicted adoption rates under different scenarios. Users can see how emissions decrease when carpooling replaces taxis or private vehicles, how trip costs drop when shared, and how Nairobi’s overall carbon footprint could change if even a small percentage of commuters adopted shared mobility.
+
+This project aims not only to showcase technical ability—data preprocessing, feature engineering, linear regression modelling, simulation design—but also to highlight a real solution with meaningful social impact. Nairobi’s transport future depends on systems that are both sustainable and affordable. By combining machine learning with environmental modeling, this project demonstrates how technology can drive greener mobility choices and create economic opportunity for thousands of everyday commuters.
+
 ### Data Acquired from SEKU study 
 - https://repository.seku.ac.ke/bitstream/handle/123456789/6610/Kioko_Analysis%20of%20travel%20pattern%20of%20a%20university%20community%20in%20a%20rural%20area.pdf?sequence=1&isAllowed=y
 - Where student and staff means of transportation to and from school was studied 
@@ -7,14 +19,6 @@
 - 165 responses considered after removing invalid responses
 - involved 71.5% males(118), 28.5% females(47)
 - population split 69.7% staff(115),30.3% students(50)
-
-### Other Elements studied
-- monthly income (<20000, 21000-40000, 41000-60000, 61000-80000, 81000-100000, >100000)
-- Age(<25,26-50,51>)
-- Trip purpose(work,study,both)
-- infrastructure adequacy(yes,no) 
-
-In the study, Extra analysis on what led people to choose their preferred mode of transportation was done. And the results were as follows
 
 * CAR/TAXI
     - comfort(81.3%)
@@ -34,7 +38,6 @@ In the study, Extra analysis on what led people to choose their preferred mode o
     - trip distance(~18%)
     - trip cost(10%)
 ## ASSUMPTIONS MADE
-in the next part i will be doing calculations which will show the economic and atmospheric impact that adaption of car pooling would have from the population
 - average emissions of a toyota vitz (116.0 g/km of CO2) and suvs used Rav4 (178 g/km) according to Mauritius Revenue Authority https://www.mra.mu/download/CO2EmissionDB251115.pdf
 - Average matatu trip cost (30-50)as per the SEKU study, i will however use 80 to account for inflation and people using more than one matatu to get to school
 - As per the study the university is in a remotte location 18km away from the closest shopping center. Using little cab app a trip from Nairobi school to USIU (17.1 KM) costs around 760 for economic trip, i shall use 700 as my average trip cost to ease calculations
