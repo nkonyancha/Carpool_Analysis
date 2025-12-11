@@ -10,6 +10,10 @@ The final output of the project is an interactive dashboard and analytical engin
 
 This project aims not only to showcase technical ability—data preprocessing, feature engineering, linear regression modelling, simulation design—but also to highlight a real solution with meaningful social impact. Nairobi’s transport future depends on systems that are both sustainable and affordable. By combining machine learning with environmental modeling, this project demonstrates how technology can drive greener mobility choices and create economic opportunity for thousands of everyday commuters.
 
+# Hypothesis
+- Ho: `Adoption` has no effect on `Emissions`, Ha: `Adoption` has a significant effect on `Emissions`
+- Ho: `Adoption` has no significant impact on `App income`, Ha: `Adoption` has a significant impact on `App income`
+
 ### Data Acquired from SEKU study 
 - https://repository.seku.ac.ke/bitstream/handle/123456789/6610/Kioko_Analysis%20of%20travel%20pattern%20of%20a%20university%20community%20in%20a%20rural%20area.pdf?sequence=1&isAllowed=y
 - Where student and staff means of transportation to and from school was studied 
@@ -48,3 +52,7 @@ This project aims not only to showcase technical ability—data preprocessing, f
 - I shall assume that in the current study all participants in car/taxi use a different car/taxi (no sharing)
 - I shall assume 260 g/km for matatu emissions. i will divide this by 14 to get emissions for each passenger in the matatu and use that figure (18.6 g/km) for each matatu user in the dataset
 - Little cab commission 18% of all trips according to https://www.little.bz/scbov.pdf
+
+## Findings Summary
+- With a P-value of 1.47e^-29 We reject the first Ho and conclude that `Adoption` has a significant impact on emissions and the coefficient of -28.23 shows it has a negative impact so more adoption reduces emissions
+- With a P-value of 
