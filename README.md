@@ -54,5 +54,5 @@ This project aims not only to showcase technical ability—data preprocessing, f
 - Little cab commission 18% of all trips according to https://www.little.bz/scbov.pdf
 
 ## Findings Summary
-- With a P-value of 1.47e^-29 We reject the first Ho and conclude that `Adoption` has a significant impact on emissions and the coefficient of -28.23 shows it has a negative impact so more adoption reduces emissions
-- With a P-value of 
+- With a P-value of 1.47e^-29 We reject the first Ho at 95% confidence level and conclude that `Adoption` has a significant impact on emissions and the coefficient of -28.23 shows it has a negative impact so more adoption reduces emissions
+- With a P-value of 0.84 we fail to reject the second Ho at 95% confidence level and conclude that `Adoption` has no significant impact on app income

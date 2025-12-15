@@ -18,7 +18,7 @@ This notebook explores the impact of carpooling adoption on trip costs using a d
 - **Linear Regression** revealed that `travel_distance_exp`, `status_Students`, and `mode_transportation_Private` are the most influential features affecting trip cost.
 - **Voting Regressor** confirmed similar findings, with `travel_distance_exp` and `status_Students` consistently ranking highest.
 
-### 4.
+### 4. 
 ### 4. Economic Impact of Carpooling
 - The simulation showed that carpooling significantly reduces trip costs, especially for taxi users.
 - The analysis highlights that trip distance and student status are major drivers of cost, suggesting targeted policies could maximize economic benefits.

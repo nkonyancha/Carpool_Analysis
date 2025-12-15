@@ -57,8 +57,7 @@
 ## Recommendations & Next Steps
 - Replace random mappings with empirically measured distributions or domain-informed statistics.
 - Validate assumptions on adoption emissions reductions with domain experts or real data.
-- Perform cross-validation and hyperparameter tuning (GridSearchCV/RandomizedSearchCV) for the RandomForest and SVR components.
-- Add interactions and polynomial features if nonlinear effects are expected.
+- Perform cross-validation and hyperparameter tuning (GridSearchCV/RandomizedSearchCV) for the RandomForest 
 - Compare per-person and per-year emissions impact (aggregate over frequency).
 - Compute and visualize residuals, prediction vs. actual scatter, and calibration plots.
 - Consider models that quantify uncertainty and perform ablation studies for policy recommendations.
